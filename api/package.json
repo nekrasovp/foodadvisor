@@ -1,8 +1,8 @@
 {
-  "name": "api",
+  "name": "foodadvisor-api",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application.",
+  "description": "Foodadvisor backend application",
   "main": "./server.js",
   "scripts": {
     "develop": "strapi develop",
@@ -13,33 +13,33 @@
     "seed": "node scripts/seed.js"
   },
   "devDependencies": {
-    "babel-eslint": "^7.1.1",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb": "^13.0.0",
-    "eslint-plugin-import": "^2.11.0",
-    "eslint-plugin-react": "^7.7.0"
+    "babel-eslint": "^10.1.1",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.22.0"
   },
   "dependencies": {
-    "fs-extra": "8.1.0",
-    "knex": "0.16.3",
-    "lodash": "^4.17.5",
-    "platformsh-config": "^2.3.1",
-    "sqlite3": "^4.0.6",
-    "strapi": "3.1.0",
-    "strapi-admin": "3.1.0",
-    "strapi-connector-bookshelf": "3.1.0",
-    "strapi-plugin-content-manager": "3.1.0",
-    "strapi-plugin-content-type-builder": "3.1.0",
-    "strapi-plugin-documentation": "3.1.0",
-    "strapi-plugin-email": "3.1.0",
-    "strapi-plugin-graphql": "3.1.0",
-    "strapi-plugin-upload": "3.1.0",
-    "strapi-plugin-users-permissions": "3.1.0",
-    "strapi-utils": "3.1.0",
-    "unzip-stream": "^0.3.0"
+    "fs-extra": "^9.1.0",
+    "knex": "^0.95.2",
+    "lodash": "^4.17.21",
+    "platformsh-config": "^2.4.1",
+    "sqlite3": "^5.0.2",
+    "strapi": "^3.5.3",
+    "strapi-admin": "^3.5.3",
+    "strapi-connector-bookshelf": "^3.5.3",
+    "strapi-plugin-content-manager": "^3.5.3",
+    "strapi-plugin-content-type-builder": "^3.5.3",
+    "strapi-plugin-documentation": "^3.5.3",
+    "strapi-plugin-email": "^3.5.3",
+    "strapi-plugin-graphql": "^3.5.3",
+    "strapi-plugin-upload": "^3.5.3",
+    "strapi-plugin-users-permissions": "^3.5.3",
+    "strapi-utils": "^3.5.3",
+    "unzip-stream": "^0.3.1"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Nekrasov Pavel"
   },
   "strapi": {
     "uuid": "7b581c0d-89b7-479e-b379-a76ab90b8754"
