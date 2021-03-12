@@ -1,4 +1,4 @@
-# Strapi API
+# Foodadvisor 
 
 ## Available Scripts
 
